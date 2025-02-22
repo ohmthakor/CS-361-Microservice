@@ -38,6 +38,7 @@ UML Sequence Diagram
 Below is a detailed UML sequence diagram showing how a request and response flow works:
 
 sequenceDiagram
+
     participant Client
     participant Server
     participant DataStore
