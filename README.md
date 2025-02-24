@@ -35,12 +35,14 @@ For example:
     "rarity": "Starting Brawler"
   }
 ]
+
 Example in JavaScript:
 
 fetch("http://localhost:3000/brawlers?search=Shelly")
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error("Error:", error));
+  
 UML Sequence Diagram
 
 Below is a detailed UML sequence diagram showing how a request and response flow works:
