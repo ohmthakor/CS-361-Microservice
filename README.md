@@ -64,4 +64,4 @@ sequenceDiagram
 
 
 
-This README provides clear instructions on how to request and receive data, includes example code calls in Node.js, and features a detailed UML sequence diagram. It meets all the criteria, and your teammate can use it to integrate with the microservice without relying on your test program.
+This README provides clear instructions on how to request and receive data, includes example code calls in Node.js, and features a detailed UML sequence diagram. It meets all the criteria, and my teammate can use it to integrate with the microservice without relying on my test program.
