@@ -45,22 +45,7 @@ fetch("http://localhost:3000/brawlers?search=Shelly")
   
 UML Sequence Diagram
 
-Below is a detailed UML sequence diagram showing how a request and response flow works:
-
-sequenceDiagram
-
-    participant Client as Test Program (Client)
-    participant MS as Brawlers Microservice
-    participant DS as Data Store (brawlers.json)
-
-    %% Client makes a GET request with query parameters
-    Client->>MS: GET /brawlers?type=Tank&rarity=Legendary
-    %% Microservice loads the data from the data store
-    MS->>DS: Load brawlers.json
-    %% Microservice filters the data based on query parameters
-    MS->>MS: Filter by type, rarity, and/or search term
-    %% Microservice returns the filtered JSON data
-    MS->>Client: Return filtered brawler objects (JSON)
+<img width="625" alt="Screenshot 2025-02-25 at 5 43 30 PM" src="https://github.com/user-attachments/assets/9935c6c9-7cfc-4e70-a141-43f8e4fd8160" />
 
 
 
