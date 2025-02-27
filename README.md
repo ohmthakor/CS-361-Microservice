@@ -1,4 +1,4 @@
-# CS-361-Microservice-A
+# CS-361-Microservice for Group Member
 
 ## Brawler Microservice Communication Contract
 
