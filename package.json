@@ -1,0 +1,16 @@
+{
+  "name": "brawlers-microservice",
+  "version": "1.0.0",
+  "description": "Brawlers Microservice API for filtering and searching brawler objects",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.3.5"
+  },
+  "author": "",
+  "license": "ISC"
+}
