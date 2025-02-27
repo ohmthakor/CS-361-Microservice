@@ -1,7 +1,7 @@
 {
   "name": "brawlers-microservice",
   "version": "1.0.0",
-  "description": "Brawlers Microservice API for filtering and searching brawler objects",
+  "description": "Brawlers Microservice API for filtering and searching brawler objects created by Ohm Thakor for Justin Lee",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
